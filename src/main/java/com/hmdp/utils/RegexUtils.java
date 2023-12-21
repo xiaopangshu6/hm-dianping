@@ -34,9 +34,11 @@ public class RegexUtils {
 
     // 校验是否不符合正则格式
     private static boolean mismatch(String str, String regex){
+        //判断 str 是否为空字符
         if (StrUtil.isBlank(str)) {
             return true;
         }
+        //判断 str 是否符合正则表达式 regex
         return !str.matches(regex);
     }
 }
