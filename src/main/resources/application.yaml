@@ -11,7 +11,7 @@ spring:
     password: CHen1460170849
 
   redis:
-    host: 192.168.10.146
+    host: 192.168.10.151
     port: 6379
     password: 111111
     lettuce:
